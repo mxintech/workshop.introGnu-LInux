@@ -1,5 +1,5 @@
 # workshop.introGnu-LInux
-Repositorio para el taller de introduccion a Gnu/Linux y la shell
+En este workshop veremos una breve introducción a Linux desde una perspectiva del mundo del desarrollo de software
 
 # El kernel **La pieza más importante**
 El [kernel](https://www.redhat.com/es/topics/linux/what-is-the-linux-kernel) es la unidad más importante de los sistemas operativos Linux, este mismo funciona como
@@ -34,3 +34,17 @@ $ ssh usuario@host
 > Usando una llave
 $ ssh -i /dirección/llave usuario@host
 ```
+
+# ¿Qué carajos es la nube?
+La nube también genera mucha confusión, pero no más que un simple computador conectado a internet en pocas palabras. [Más acá](https://www.linux.com/news/linux-platform-cloud/)
+
+![Cloud](./assets/story-cloud.png)
+
+# Entrando con los comandos básicos en Linux
+* ls
+* touch
+* mkdir
+* cd
+* pwd
+* mv
+* cp
