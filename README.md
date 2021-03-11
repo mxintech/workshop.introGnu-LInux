@@ -42,9 +42,29 @@ La nube también genera mucha confusión, pero no más que un simple computador 
 
 # Entrando con los comandos básicos en Linux
 * ls
+Lista los archivos dado un directorio dado
+```
+ls [opciones] [fichero...]
+-------------------------
+$ ls
+$ ls -l
+$ ls -la
+```
+
 * touch
+Crea un archivo pasado como argumento, aunque también cambia la fecha de acceso y/o modificación del archivo especificado.
+```
+touch archivo...
+-----------------
+$ touch foo
+$ touch bar
+$ touch misNotas.txt
+$ touch main.c
+```
+
 * mkdir
 * cd
 * pwd
 * mv
 * cp
+* man
