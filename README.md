@@ -198,6 +198,23 @@ La segunda forma es creando el archivo si no existe desde vim, el editor se enca
 $ vim notas.txt
 ```
 
+Una ves hemos hecho esto debemos saber que en vim hay diferentes modos en los que podemos estar, para entrar en el modo escritura presionaremos la letra
+*i* y de esta manera podemos empezar a escribir en nuestro archivo, una vez hayamos terminado de escribir podemos presionar la tecla de *Esc* para salir
+al modo normal. Ahora para guardar nuestros cambios hay que ejecutar algunas funciones del editor, las cuales son *:w* que significa write para guardar, 
+al presionar los dos puntos estamos diciendo al editor que vamos a ejecutar una funciona por lo que se nos desplega una barra inferior para la misma, para 
+salir una vez hayamos guardado vamos a ejecutar *:q*. Pro-tip: Puedes simplemente escribir *:wq* para guardar y salir.
+
+Para cortar, copiar y pegar dentro de vim es muy sencillo, primero que nada debemos colocarnos en el modo normal, luego para cortar una linea entera
+podemos presionar: *dd*, para pegar lo que anteriormente cortamos simplemente presionamos: *p*, ahora para copiar y pegar el procedimiento es otro, primero
+debemos irnos al modo visual que se consigue presionando *v* y seleccionando nuestra área para copiar, una vez hayamos realizado esto debemos presionar *y*
+y para pegar es el mismo proceso anterior mencionado el cual consiste en presionar *p*
+
+*Para más ayuda presiona :help en vim*
+
+[vim cheat sheet](http://vimsheet.com/)
+
+![vim vs emacs](./assets/vim-emacs.png)
+
 # Arbol de directorios
 
 # Systemd
