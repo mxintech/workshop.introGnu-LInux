@@ -237,9 +237,22 @@ Todos los archivos en Linux están sobre el directorio 'root' que esta sobre:  `
 
 3.- **BIN/SBIN**
 
+En ``` /bin ``` y ``` /sbin ``` se encuentran todos los binarios, en bin están los binarios como *cat, cd, echo, etc...* y en sbin binarios para tareas del OS.
+
 4.- **ETC**
 
+En ``` /etc ``` podemos encontrar todos los archivos de configuración del sistema aunque también contendrá los archivos de aplicaciones que instalemos
+en un futuro.
+
 5.- **HOME**
+
+Home es el directorio que por estándar tienen los usuarios y su función es guardar todos los archivos de los mismos, dentro de ``` /home ``` están los 
+directorios personales de los usuarios, por ejemplo:
+
+```
+/home/pepito
+/home/juanita
+```
 
 # Systemd
 
