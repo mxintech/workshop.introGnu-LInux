@@ -63,8 +63,34 @@ $ touch main.c
 ```
 
 * mkdir
+Crea directorios con los nombres especificados
+```
+mkdir directorio...
+---------------------------------
+$ mkdir folder
+```
+
+
 * cd
+Cambia el directorio actual a un directio dado
+```
+cd directorio
+---------------------------------
+$ cd
+$ cd directorio/
+$ cd /etc
+```
+
+
 * pwd
+Imprime el directorio actual
+```
+pwd
+--------------
+$pwd
+```
+
+
 * mv
 * cp
 * man
