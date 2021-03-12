@@ -42,6 +42,7 @@ La nube también genera mucha confusión, pero no más que un simple computador 
 
 # Entrando con los comandos básicos en Linux
 * ls
+
 Lista los archivos dado un directorio dado
 ```
 ls [opciones] [fichero...]
@@ -52,6 +53,7 @@ $ ls -la
 ```
 
 * touch
+
 Crea un archivo pasado como argumento, aunque también cambia la fecha de acceso y/o modificación del archivo especificado.
 ```
 touch archivo...
@@ -63,6 +65,7 @@ $ touch main.c
 ```
 
 * mkdir
+
 Crea directorios con los nombres especificados
 ```
 mkdir directorio...
@@ -72,6 +75,7 @@ $ mkdir folder
 
 
 * cd
+
 Cambia el directorio actual a un directio dado
 ```
 cd directorio
@@ -83,14 +87,58 @@ $ cd /etc
 
 
 * pwd
+
 Imprime el directorio actual
 ```
 pwd
 --------------
-$pwd
+$ pwd
 ```
 
 
 * mv
+
+Mueve O renombra ficheros
+```
+mv [opcion] origen destino
+-----------------------------
+# renombrando
+$ mv file renamedFile
+
+# Moviendo
+$ mv file ~/
+
+# Remplazando
+# Argumento -i Pide confirmacion si existe el archivo
+$ mv -i file directory/file
+
+```
+
 * cp
+
+Copia ficheros y directorios
+```
+cp [opciones] fichero directorio
+----------------------------------
+# Copiando archivos
+$ cp file ~/myDirectory/
+
+# Copiano directorios
+# Argumento -r quiere decir: Copiar de manera recursiva
+$ cp -r directory/ ~/
+```
+
+
 * man
+
+Manual de referencia del sistema
+```
+man [opciones] pagina
+-----------------------
+# What is?
+$ man -f mv
+
+$ man man
+
+$ man mv
+```
