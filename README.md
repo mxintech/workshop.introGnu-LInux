@@ -176,22 +176,28 @@ gran variedad de estos mismos, uno de los más famosos y conocidos es vim, nano 
 
 # Instalanado NGINX
 * Listando los extras de amazon-linux, en este caso nginx
+
 ``` $ sudo amazon-linux-extras list | grep nginx ```
 
 * Habilitando los extras de amazon-linux de nginx
+
 ``` $ sudo amazon-linux-extras enable nginx1  ```
 
 * Limpiando la metadata
+
 ``` $ sudo yum clean metadata ```
 
 * Instalando
+
 ``` $ sudo yum -y install nginx ```
 
 # Corriendo daemon de NGINX
 * Mirando el estado actual
+
 ``` $ sudo systemctl status nginx ```
 
 * Corriendo el daemon
+
 ``` $ sudo systemctl start nginx ```
 
 # Editando el archivo principal de NGINX
