@@ -217,6 +217,30 @@ y para pegar es el mismo proceso anterior mencionado el cual consiste en presion
 
 # Arbol de directorios
 
+``` 
+1.- / 
+
+2.- /bin /sbin
+
+3.- /dev
+
+4.- /etc
+
+5.- /home
+```
+
+Vamos a hablar ahora de una de las piezas importantes en Linux la cual es la estructura de directorios, de forma numérica vamos a ver algunos de ellos.
+
+1.- **ROOT**
+
+Todos los archivos en Linux están sobre el directorio 'root' que esta sobre:  ``` / ``` , por lo que podemos decir que es el directorio raíz.
+
+3.- **BIN/SBIN**
+
+4.- **ETC**
+
+5.- **HOME**
+
 # Systemd
 
 # Daemon
