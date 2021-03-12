@@ -142,3 +142,25 @@ $ man man
 
 $ man mv
 ```
+
+# Manejadores de paquetes
+
+# Instalando paquetes
+
+# Editores de consola
+
+# Editando archivos desde la terminal
+
+# Arbol de directorios
+
+# Systemd
+
+# Daemon
+
+# Instalanado NGINX
+
+# Corriendo daemon de NGINX
+
+# Editando el archivo principal de NGINX
+
+# GRACIAS!
