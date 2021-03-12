@@ -254,6 +254,10 @@ directorios personales de los usuarios, por ejemplo:
 /home/juanita
 ```
 
+![Linux Directory Structure](./assets/linux-directory-structure.png)
+
+Más acá: [Inglés](https://linuxhandbook.com/linux-directory-structure/) [Español](https://computernewage.com/2015/06/14/el-arbol-de-directorios-de-linux-al-detalle-que-contiene-cada-carpeta/)
+
 # Systemd
 
 # Daemon
