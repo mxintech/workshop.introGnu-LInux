@@ -157,8 +157,19 @@ Yum es un instalador de paquetes para sistemas rpm. Dado que vamos a trabajar co
 
 # Instalando paquetes
 
-# Editores de consola
-Se han preguntado: ¿Cómo rayos editamos archivos en una consola? Bueno la respuesta es sencilla y esta en los editores basados en consola. Existen una
+Instalando VIM
+```
+$ sudo amazon-linux-extras list
+$ sudo amazon-linux-extras list | grep vim
+$ yum clean metadata
+$ sudo yum install -y vim-minimal
+
+# Ya tenemos nuestro paquete instalado, lo mandamos a llamar.
+$ vim
+```
+
+# Editores de terminal
+Se han preguntado: ¿Cómo rayos editamos archivos en una terminal? Bueno la respuesta es sencilla y esta en los editores basados en la terminal. Existen una
 gran variedad de estos mismos, uno de los más famosos y conocidos es vim, nano o emacs, y de hecho, hay una pelea entre los ultimos dos sobre cuál es el mejor.
 ¡¡¡VIM FTW!!!!
 
@@ -167,6 +178,25 @@ gran variedad de estos mismos, uno de los más famosos y conocidos es vim, nano 
 ![Editores de terminal](./assets/editor.png)
 
 # Editando archivos desde la terminal
+
+Como habíamos dicho anteriormente existen editores de terminal y a continuación vamos a ver como editar de manera sencilla un archivo utilizando VIM.
+Primero que nada debemos llamar a nuestro editor de texto con el comando 
+
+``` $ vim ```
+
+Hay dos formas (en realidad más) para poder editar un archivo con vim. La primera forma que utilizaremos será creando un archivo con touch y luego
+llamándolo con vim:
+
+```
+$ touch notas.txt
+$ vim notas.txt
+```
+
+La segunda forma es creando el archivo si no existe desde vim, el editor se encargará de crearlo cuando nosotros guardemos:
+
+```
+$ vim notas.txt
+```
 
 # Arbol de directorios
 
