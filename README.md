@@ -144,6 +144,16 @@ $ man mv
 ```
 
 # Manejadores de paquetes
+Un [manejador de paquetes](https://en.wikipedia.org/wiki/Package_manager) es todo un conjunto de herramientas que permiten facilitar 
+el proceso de instalación, configuración, actualización y eliminación de paquetes de software, el manejador de paquetes se ocupa 
+también de las distribuciones del software instalado. Los paquetes contienen metadata como nombre del software, la versión y 
+el numero (y cuales) de dependencias que éste ocupa.
+
+### yum
+Yum es un instalador de paquetes para sistemas rpm. Dado que vamos a trabajar con Amazon Linux 2, este sistema esta basado en un 
+[RHEL](https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux) y a su vez proporciona RPM
+
+[Lea más acá](https://www.redhat.com/sysadmin/how-manage-packages)
 
 # Instalando paquetes
 
