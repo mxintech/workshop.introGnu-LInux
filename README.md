@@ -262,12 +262,20 @@ Más acá: [Inglés](https://linuxhandbook.com/linux-directory-structure/) [Espa
 
 [Del sitio de systemd](https://systemd.io/)
 > systemd is a suite of basic building blocks for a Linux system. It provides a system and service manager that runs as 
-> PID 1 and starts the rest of thesystem.
+> PID 1 and starts the rest of the system.
 > systemd provides aggressive parallelization capabilities, uses socket and D-Bus activation for starting services, offers on-demand 
 > starting of daemons, keeps track of processes using Linux control groups, maintains mount and automount points, and implements an 
 > elaborate transactional dependency-based service control logic. systemd supports SysV and LSB init scripts and works as a replacement for sysvinit.
 
+
+En pocas palabras trata de unificar confifuracion y los servicios en todas las distribuciones de Linux y el componente principal de systemd es un 
+administrador de sistemas y servicios.
+
 # Daemon
+
+Un daemon es un programa que corre como un proceso por debajo *background process* en ves de estar en el control directo del usuario. Tradicionalmente
+el nombre de los procesos de los deamons terminan con la letra *d*, esto se hace para diferenciar entre los mismos y programas normales corriendo, también
+para saber que se trata de un deamon en realidad.
 
 # Instalanado NGINX
 * Listando los extras de amazon-linux, en este caso nginx
