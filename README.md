@@ -313,4 +313,10 @@ para saber que se trata de un deamon en realidad.
 
 # Editando el archivo principal de NGINX
 
+``` 
+$ vim /etc/nginx/nginx.conf
+$ sudo vim /usr/share/nginx/html/index.html
+$ sudo systemctl restart nginx.service
+```
+
 # GRACIAS!
