@@ -320,3 +320,15 @@ $ sudo systemctl restart nginx.service
 ```
 
 # GRACIAS!
+
+## De parte de mxintech, te agradecemos si tomaste el taller o estas viendo esto fuera del taller, recuerda que somos una comunidad y todos aprendemos juntos. ##
+![mxintech](./assets/mxintech.jpg)
+
+
+Únete a la comunidad de México in Tech y aprendamos de forma colaborativa.
+Facebook: https://www.facebook.com/mxintech
+Twitter: https://twitter.com/mxintech
+Telegram: https://t.me/mxintech
+LinkedIn: https://www.linkedin.com/company/mxintech
+YouTube: https://www.youtube.com/channel/UCLoUhuK3uiyJ09lDcZh2PDw
+Twitch: https://www.twitch.tv/mxintech
