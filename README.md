@@ -271,11 +271,19 @@ Más acá: [Inglés](https://linuxhandbook.com/linux-directory-structure/) [Espa
 En pocas palabras trata de unificar confifuracion y los servicios en todas las distribuciones de Linux y el componente principal de systemd es un 
 administrador de sistemas y servicios.
 
+![Systemd on fedora 17](./assets/Systemd-on-fedora.png)
+
+[Wikipedia](https://en.wikipedia.org/wiki/Systemd)
+
 # Daemon
 
 Un daemon es un programa que corre como un proceso por debajo *background process* en ves de estar en el control directo del usuario. Tradicionalmente
 el nombre de los procesos de los deamons terminan con la letra *d*, esto se hace para diferenciar entre los mismos y programas normales corriendo, también
 para saber que se trata de un deamon en realidad.
+
+![daemon](./assets/daemon-components.png)
+
+> Components of some Linux desktop environments that are daemons include D-Bus, NetworkManager (here called unetwork), PulseAudio (usound), and Avahi. [wikipedia](https://en.wikipedia.org/wiki/Daemon_(computing))
 
 # Instalanado NGINX
 * Listando los extras de amazon-linux, en este caso nginx
