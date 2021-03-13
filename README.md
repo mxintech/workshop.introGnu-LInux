@@ -260,6 +260,13 @@ Más acá: [Inglés](https://linuxhandbook.com/linux-directory-structure/) [Espa
 
 # Systemd
 
+[Del sitio de systemd](https://systemd.io/)
+> systemd is a suite of basic building blocks for a Linux system. It provides a system and service manager that runs as 
+> PID 1 and starts the rest of thesystem.
+> systemd provides aggressive parallelization capabilities, uses socket and D-Bus activation for starting services, offers on-demand 
+> starting of daemons, keeps track of processes using Linux control groups, maintains mount and automount points, and implements an 
+> elaborate transactional dependency-based service control logic. systemd supports SysV and LSB init scripts and works as a replacement for sysvinit.
+
 # Daemon
 
 # Instalanado NGINX
@@ -279,12 +286,12 @@ Más acá: [Inglés](https://linuxhandbook.com/linux-directory-structure/) [Espa
 
 ``` $ sudo yum -y install nginx ```
 
-# Corriendo daemon de NGINX
+# Corriendo servicio de NGINX
 * Mirando el estado actual
 
 ``` $ sudo systemctl status nginx ```
 
-* Corriendo el daemon
+* Iniciando el servicio
 
 ``` $ sudo systemctl start nginx ```
 
